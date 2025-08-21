@@ -25,7 +25,7 @@ embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_a
 
 # Step 2: Steamlit App
 st.set_page_config(page_title="RAG with LangChain", page_icon=":)", layout="wide")
-st.title("IntelliSearch-A-RAG-Powered-Knowledge-Assistant-using-LangChain-and-Gemini")
+st.title("IntelliSearch-A-RAG-Powered-Knowledge-Assistant")
 uploaded_file = st.file_uploader("Upload a PDF or TXT file", type=["pdf", "txt",'docx'])
 
 if uploaded_file:
